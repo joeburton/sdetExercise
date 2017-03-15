@@ -14,7 +14,7 @@
             "name": "I make a GET API call to GitHub for Jamie Oliver",
             "result": {
               "status": "passed",
-              "duration": 502532927
+              "duration": 449636167
             },
             "line": 11,
             "match": {
@@ -27,7 +27,7 @@
             "name": "the correct Jamie Oliver is returned",
             "result": {
               "status": "passed",
-              "duration": 344085
+              "duration": 341019
             },
             "line": 12,
             "match": {
@@ -39,11 +39,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1309624397
+              "duration": 1306846840
             },
             "hidden": true,
             "match": {
-              "location": "/Users/ihejik/Projects/CA/sdetExercise2/node_modules/selenium-cucumber-js/runtime/world.js:185"
+              "location": "/Users/ihejik/Projects/CA/sdetExercise/node_modules/selenium-cucumber-js/runtime/world.js:185"
             }
           }
         ],
@@ -75,7 +75,7 @@
             "name": "I launch the GitHub application",
             "result": {
               "status": "passed",
-              "duration": 2722105724
+              "duration": 2442649794
             },
             "line": 20,
             "match": {
@@ -88,7 +88,7 @@
             "name": "I sign up with Jamie",
             "result": {
               "status": "passed",
-              "duration": 1579494
+              "duration": 985972
             },
             "line": 21,
             "match": {
@@ -101,7 +101,7 @@
             "name": "the Username is already taken is displayed",
             "result": {
               "status": "passed",
-              "duration": 1086408304
+              "duration": 1049330868
             },
             "line": 22,
             "match": {
@@ -113,11 +113,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 112239470
+              "duration": 114199753
             },
             "hidden": true,
             "match": {
-              "location": "/Users/ihejik/Projects/CA/sdetExercise2/node_modules/selenium-cucumber-js/runtime/world.js:185"
+              "location": "/Users/ihejik/Projects/CA/sdetExercise/node_modules/selenium-cucumber-js/runtime/world.js:185"
             }
           }
         ],
@@ -152,6 +152,6 @@
         "line": 2
       }
     ],
-    "uri": "/Users/ihejik/Projects/CA/sdetExercise2/features/feature_files/Verify GitHub API And UI Functionality.feature"
+    "uri": "/Users/ihejik/Projects/CA/sdetExercise/features/feature_files/Verify GitHub API And UI Functionality.feature"
   }
 ]

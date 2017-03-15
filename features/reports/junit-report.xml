@@ -8,12 +8,12 @@
             </property>
             <property name="@happyPath" value="true">
             </property>
-            <property name="URI" value="/Users/ihejik/Projects/CA/sdetExercise2/features/feature_files/Verify GitHub API And UI Functionality.feature">
+            <property name="URI" value="/Users/ihejik/Projects/CA/sdetExercise/features/feature_files/Verify GitHub API And UI Functionality.feature">
             </property>
         </properties>
-        <testcase name="When I make a GET API call to GitHub for Jamie Oliver" classname="verify-github-api-and-ui-functionality;return-a-users-full-name" time="0.502532927">
+        <testcase name="When I make a GET API call to GitHub for Jamie Oliver" classname="verify-github-api-and-ui-functionality;return-a-users-full-name" time="0.449636167">
         </testcase>
-        <testcase name="Then the correct Jamie Oliver is returned" classname="verify-github-api-and-ui-functionality;return-a-users-full-name" time="0.000344085">
+        <testcase name="Then the correct Jamie Oliver is returned" classname="verify-github-api-and-ui-functionality;return-a-users-full-name" time="0.000341019">
         </testcase>
     </testsuite>
     <testsuite name="verify-github-api-and-ui-functionality;show-correct-availability-of-username" tests="3" failures="0" skipped="0">
@@ -24,14 +24,14 @@
             </property>
             <property name="@errorPath" value="true">
             </property>
-            <property name="URI" value="/Users/ihejik/Projects/CA/sdetExercise2/features/feature_files/Verify GitHub API And UI Functionality.feature">
+            <property name="URI" value="/Users/ihejik/Projects/CA/sdetExercise/features/feature_files/Verify GitHub API And UI Functionality.feature">
             </property>
         </properties>
-        <testcase name="Given I launch the GitHub application" classname="verify-github-api-and-ui-functionality;show-correct-availability-of-username" time="2.722105724">
+        <testcase name="Given I launch the GitHub application" classname="verify-github-api-and-ui-functionality;show-correct-availability-of-username" time="2.442649794">
         </testcase>
-        <testcase name="When I sign up with Jamie" classname="verify-github-api-and-ui-functionality;show-correct-availability-of-username" time="0.001579494">
+        <testcase name="When I sign up with Jamie" classname="verify-github-api-and-ui-functionality;show-correct-availability-of-username" time="0.000985972">
         </testcase>
-        <testcase name="Then the Username is already taken is displayed" classname="verify-github-api-and-ui-functionality;show-correct-availability-of-username" time="1.086408304">
+        <testcase name="Then the Username is already taken is displayed" classname="verify-github-api-and-ui-functionality;show-correct-availability-of-username" time="1.049330868">
         </testcase>
     </testsuite>
 </testsuites>

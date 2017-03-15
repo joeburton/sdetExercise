@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "node ./node_modules/weblab-common-test/index.js -t @acceptanceTests",
-    "bdd": "node ./node_modules/weblab-common-test/index.js"
+    "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./features/step_definitions -p ./features/page_objects -o ./features/shared_objects -r ./features/reports  -t @acceptanceTests"
   },
   "repository": {
     "type": "git",
@@ -25,6 +24,6 @@
     "chromedriver": "^2.24.0",
     "npm": "^3.10.6",
     "run-sequence": "^1.2.2",
-    "weblab-common-test": "bitbucket:carepo/weblab-common-test"
+    "selenium-cucumber-js": "^1.3.7"
   }
 }
