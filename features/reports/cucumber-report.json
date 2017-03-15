@@ -1,0 +1,157 @@
+[
+  {
+    "description": "  In order to verify GitHub API and UI functionality\n  As a user\n  I want to run the following acceptance tests",
+    "elements": [
+      {
+        "id": "verify-github-api-and-ui-functionality;return-a-users-full-name",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Return A Users Full Name",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I make a GET API call to GitHub for Jamie Oliver",
+            "result": {
+              "status": "passed",
+              "duration": 502532927
+            },
+            "line": 11,
+            "match": {
+              "location": "Steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the correct Jamie Oliver is returned",
+            "result": {
+              "status": "passed",
+              "duration": 344085
+            },
+            "line": 12,
+            "match": {
+              "location": "Steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1309624397
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/ihejik/Projects/CA/sdetExercise2/node_modules/selenium-cucumber-js/runtime/world.js:185"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acceptanceTests",
+            "line": 1
+          },
+          {
+            "name": "@verifyGitHubAPIAndUIFunctionality",
+            "line": 2
+          },
+          {
+            "name": "@happyPath",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "verify-github-api-and-ui-functionality;show-correct-availability-of-username",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Show Correct Availability of Username",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I launch the GitHub application",
+            "result": {
+              "status": "passed",
+              "duration": 2722105724
+            },
+            "line": 20,
+            "match": {
+              "location": "Steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I sign up with Jamie",
+            "result": {
+              "status": "passed",
+              "duration": 1579494
+            },
+            "line": 21,
+            "match": {
+              "location": "Steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the Username is already taken is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 1086408304
+            },
+            "line": 22,
+            "match": {
+              "location": "Steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 112239470
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/ihejik/Projects/CA/sdetExercise2/node_modules/selenium-cucumber-js/runtime/world.js:185"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acceptanceTests",
+            "line": 1
+          },
+          {
+            "name": "@verifyGitHubAPIAndUIFunctionality",
+            "line": 2
+          },
+          {
+            "name": "@errorPath",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-github-api-and-ui-functionality",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Verify GitHub API And UI Functionality",
+    "tags": [
+      {
+        "name": "@acceptanceTests",
+        "line": 1
+      },
+      {
+        "name": "@verifyGitHubAPIAndUIFunctionality",
+        "line": 2
+      }
+    ],
+    "uri": "/Users/ihejik/Projects/CA/sdetExercise2/features/feature_files/Verify GitHub API And UI Functionality.feature"
+  }
+]

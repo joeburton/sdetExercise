@@ -1,0 +1,30 @@
+{
+  "name": "photobox_SDET_exercise",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./node_modules/weblab-common-test/index.js -t @acceptanceTests",
+    "bdd": "node ./node_modules/weblab-common-test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Kelechi Ihejieto",
+  "license": "KI",
+  "homepage": "#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "node-cache": "^4.1.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.24.0",
+    "npm": "^3.10.6",
+    "run-sequence": "^1.2.2",
+    "weblab-common-test": "bitbucket:carepo/weblab-common-test"
+  }
+}

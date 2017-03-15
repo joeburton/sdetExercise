@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="verify-github-api-and-ui-functionality;return-a-users-full-name" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="@acceptanceTests" value="true">
+            </property>
+            <property name="@verifyGitHubAPIAndUIFunctionality" value="true">
+            </property>
+            <property name="@happyPath" value="true">
+            </property>
+            <property name="URI" value="/Users/ihejik/Projects/CA/sdetExercise2/features/feature_files/Verify GitHub API And UI Functionality.feature">
+            </property>
+        </properties>
+        <testcase name="When I make a GET API call to GitHub for Jamie Oliver" classname="verify-github-api-and-ui-functionality;return-a-users-full-name" time="0.502532927">
+        </testcase>
+        <testcase name="Then the correct Jamie Oliver is returned" classname="verify-github-api-and-ui-functionality;return-a-users-full-name" time="0.000344085">
+        </testcase>
+    </testsuite>
+    <testsuite name="verify-github-api-and-ui-functionality;show-correct-availability-of-username" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@acceptanceTests" value="true">
+            </property>
+            <property name="@verifyGitHubAPIAndUIFunctionality" value="true">
+            </property>
+            <property name="@errorPath" value="true">
+            </property>
+            <property name="URI" value="/Users/ihejik/Projects/CA/sdetExercise2/features/feature_files/Verify GitHub API And UI Functionality.feature">
+            </property>
+        </properties>
+        <testcase name="Given I launch the GitHub application" classname="verify-github-api-and-ui-functionality;show-correct-availability-of-username" time="2.722105724">
+        </testcase>
+        <testcase name="When I sign up with Jamie" classname="verify-github-api-and-ui-functionality;show-correct-availability-of-username" time="0.001579494">
+        </testcase>
+        <testcase name="Then the Username is already taken is displayed" classname="verify-github-api-and-ui-functionality;show-correct-availability-of-username" time="1.086408304">
+        </testcase>
+    </testsuite>
+</testsuites>
